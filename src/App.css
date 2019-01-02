@@ -1,11 +1,17 @@
+.grid {
+    margin: 0 auto;
+}
+
 .days {
-    background-color: lemonchiffon;
-    padding: 10px;
+    background-color: #fffcc9;
+    padding: 20px;
     border: 2px solid black;
+    text-align: center;
 }
 
 .nights {
-    background-color: blue;
-    padding: 10px;
+    background-color: #546bab;
+    padding: 20px;
     border: 2px solid black;
+    text-align: center;
 }
