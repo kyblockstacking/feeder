@@ -1,17 +1,22 @@
 .grid {
-    margin: 0 auto;
+    margin: 0 0 0 20vw;
+    height: 100vh;
+    width: 100vw;
 }
 
 .days {
-    background-color: #fffcc9;
-    padding: 20px;
+    padding: 5px;
     border: 2px solid black;
     text-align: center;
 }
 
 .nights {
     background-color: #546bab;
-    padding: 20px;
+    padding: 5px;
     border: 2px solid black;
     text-align: center;
+}
+
+.week {
+    margin: 1% 0 0.5% 0;
 }
