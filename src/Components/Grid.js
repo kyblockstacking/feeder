@@ -102,6 +102,9 @@ export default class Grid extends Component {
             case 'green':
                 this.setState({ MondayAM: { background: 'red' } });
                 break;
+            default:
+                console.log('error color change');
+                break;
         }
 
         switch (this.state.MondayAM.background) {
@@ -110,6 +113,9 @@ export default class Grid extends Component {
                 break;
             case 'green':
                 this.setState({ MondayAM: { background: 'red' } });
+                break;
+            default:
+                console.log('error color change');
                 break;
         }
     };
